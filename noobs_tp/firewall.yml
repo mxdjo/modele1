@@ -18,7 +18,7 @@
 
    - name: Fermer les ports 25 et 9000
      ufw:
-        rule: 
+        rule: allow 
         port: 8080,80
         proto: tcp
 
@@ -28,3 +28,7 @@
         state: present
         
 
+   - name: Install index
+     template:
+       src: index.html.j2
+       dest: /var/www/html/index.html
