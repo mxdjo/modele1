@@ -1,5 +1,8 @@
 ---
 - hosts: 192.168.56.102
+  become: yes
+  become_method: sudo
+
   vars: 
     variable_to_be_replaced: 'Hello Noobs'
     substitus_of_variables: 'Hello , variable remplacée' 
@@ -9,6 +12,6 @@
      template:
        src: index.html.j2
        dest: /var/www/html/index.html
-
+       mode: 0755
 
 
