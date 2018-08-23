@@ -1,9 +1,9 @@
 
 
-### DescriptionE
+### Description
 
 Ceci est le fichier expliquant 
-comment utiliser le playbook.
+comment utiliser le playbook play_noobs.yml.
 En fait,le playbook permet 
 d'installer Drupal 7.28 sous un 
 système Debian based 
