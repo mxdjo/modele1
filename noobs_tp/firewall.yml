@@ -18,8 +18,8 @@
 
    - name: Fermer les ports 25 et 9000
      ufw:
-        rule: allow 
-        port: 8080,80
+        rule: deny
+        port: 25,9000
         proto: tcp
 
    - name: Installer Tomcat
