@@ -26,9 +26,3 @@
      apt:
         name: tomcat7
         state: present
-        
-
-   - name: Install index
-     template:
-       src: index.html.j2
-       dest: /var/www/html/index.html
