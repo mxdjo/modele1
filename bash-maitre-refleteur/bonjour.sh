@@ -2,4 +2,5 @@
 
 #Script pour dire Bonjour
 
-echo "Bonjour"
+echo "Bonjour" #Nous avons affiché un message :)
+
