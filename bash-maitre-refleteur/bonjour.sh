@@ -1,6 +1,7 @@
 #! /bin/bash
 
-#Script pour dire Bonjour
+#Nous allons afficher un message
+msg="Bonjour"
 
-echo "Bonjour" #Nous avons affiché un message :)
-
+echo msg #Erreur de frappe
+echo $msg
