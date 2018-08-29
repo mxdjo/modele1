@@ -32,3 +32,4 @@ fi
 
 ${ch1:pos:long}
 echo " \${ch1:$pos:$long} vaut " ${ch1:pos:long}
+
