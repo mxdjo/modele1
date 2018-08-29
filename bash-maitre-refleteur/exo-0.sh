@@ -26,3 +26,9 @@ else
 	echo "faux";
 fi
 
+
+
+#Extraction d'une sous-chaine de caractères
+
+${ch1:pos:long}
+echo " \${ch1:$pos:$long} vaut " ${ch1:pos:long}
